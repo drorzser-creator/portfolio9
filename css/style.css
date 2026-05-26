@@ -1368,7 +1368,7 @@ footer .copyright-text {
 		opacity: 1;
 		top: 50%;
 		transform: translateY(-50%) scale(1);
-		margin-top: 10px;
+		margin-top: 7px;
 		transition: none;
 		pointer-events: auto;
 		width: 38px;
