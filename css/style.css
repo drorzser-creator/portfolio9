@@ -152,6 +152,7 @@ img {
 	width: 100%;
 	padding: 25px;
 	transition: all 0.5s ease;
+	background-color: #1f1f1f;
 }
 
 .navbar.sticky {
@@ -1316,6 +1317,13 @@ footer .copyright-text {
 		font-size: 16px;
 	}
 
+	.carousel-item::after,
+	.carousel-title,
+	.carousel-desc,
+	.carousel-controls button {
+		opacity: 1;
+	}
+
 	/*Lighbox*/
 	.lightbox {
 		align-items: center;
@@ -1506,7 +1514,7 @@ footer .copyright-text {
 @media (max-width: 991px) {
 	.home-section .home-image .img-box img {
 		transform: translate(0%);
-		filter: brightness(1.5) contrast(2)
+		filter: brightness(2.5) contrast(0.5)
 			drop-shadow(0 0 50px rgba(255, 255, 255, 0.4));
 	}
 }
