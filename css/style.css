@@ -799,7 +799,7 @@ img {
 	cursor: pointer;
 	margin-top: -20px;
 	z-index: 110;
-	transition: all 0.3 ease;
+	transition: all 0.3s ease;
 	top: 50%;
 	transform: translateY(-50%);
 }
@@ -1369,7 +1369,8 @@ footer .copyright-text {
 		top: 50%;
 		transform: translateY(-50%) scale(1) !important;
 		margin-top: 5px;
-		transition: none;
+		transition-property: none !important;
+		animation: none !important;
 		pointer-events: auto;
 		width: 38px;
 		height: 38px;
@@ -1386,7 +1387,9 @@ footer .copyright-text {
 	.lightbox-controls .prev-item:hover,
 	.lightbox-controls .next-item:hover,
 	.lightbox-controls .prev-item:active,
-	.lightbox-controls .next-item:active {
+	.lightbox-controls .next-item:active,
+	.lightbox-controls .prev-item:focus,
+	.lightbox-controls .next-item:focus {
 		transform: translateY(-50%) scale(1.1) !important;
 	}
 }
